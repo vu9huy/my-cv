@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #302e4d;
+    font-size: 16px;
+}
+p{
+    padding-top: 1px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-weight: 500;
+    
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    
+}
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color:  #fff;
+    padding: 20px 20px 0 0;
+}   
+.left-page{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.avatar-name{
+    flex-direction: column;
+}
+.avatar{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+.name{
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
+    color: #3f9599;
+}
+.info-skill-advantage{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    background-color: #3f9599;
+    padding: 12px;
+    
+}
+.info-skill-advantage p,i{
+    color: #fff;
+}
+.info p{
+    padding-top: 6px;
+}
+.right-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 8px; */
+}
+.right-page .title{
+    padding: 12px 0 6px 0;
+}
+
+.product-item{
+    padding-left: 16px;
+}
+.product-item a{
+    font-weight: 500;
+}
+.github{
+    padding-left: 16px;
+    font-weight: 500;
+    padding-top: 6px;
+}
+.text{
+    padding-left: 16px;
+}
