@@ -4,6 +4,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #302e4d;
     font-size: 16px;
+    line-height: 1.3;
 }
 i{
     padding-right: 4px;
@@ -76,10 +77,11 @@ p{
     /* padding-right: 8px; */
 }
 .right-page .title{
-    padding: 12px 0 6px 0;
+    padding: 10px 0 0 0;
 }
 
 .product-item{
+    padding-top: 6px;
     padding-left: 16px;
 }
 .product-item a{
